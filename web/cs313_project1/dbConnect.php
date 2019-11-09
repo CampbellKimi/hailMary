@@ -9,7 +9,7 @@ function get_db() {
 		if (!isset($dbUrl) || empty($dbUrl)) {
 			// example localhost configuration URL with user: "ta_user", password: "ta_pass"
 			// and a database called "scripture_ta"
-			$dbUrl = "postgres://kfwjbcqzwzpacd:14dc1474a3f84e2ac1484d56d7bf301093b255e029553e74f2ed5e1f1d7703a8@ec2-174-129-27-158.compute-1.amazonaws.com:5432/degk0pjuc8c9sm";
+			$dbUrl = "postgres://ojwdduplonqxyi:0341c69afe13715b83c95b75fd16376aa7ec39bd70eb0832e3dda6e343ace204@ec2-174-129-253-63.compute-1.amazonaws.com:5432/dcgbc2eb0m63rm";
 			// NOTE: It is not great to put this sensitive information right
 			// here in a file that gets committed to version control. It's not
 			// as bad as putting your Heroku user and password here, but still
