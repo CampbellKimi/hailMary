@@ -1,0 +1,4 @@
+<?php
+echo "<h1>"."Why did you click that when I asked you specifically not to?\n\n\n\n\n";
+echo '<img src="dwigt.gif" alt="dwigt" style="width:600px;height:800px;">';
+?>

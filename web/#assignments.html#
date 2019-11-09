@@ -1,0 +1,68 @@
+<!DOCTYPE html> 
+<html> 
+    <head> 
+        <meta charset = "utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>CS 313 - Assignments</title>
+<script>
+function somePhp() {
+  var xhttp = new XMLHttpRequest();
+  xhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+     document.getElementById("php").innerHTML = this.responseText;
+    }
+  };
+  xhttp.open("GET", "functions.php", true);
+  xhttp.send();
+}
+</script>
+    </head>
+    <body>
+    <table border="5" width="40%" ID="table_1">
+        <tr>
+            <thead>Week</thead>
+            <thead>Assignment</thead>
+        </tr>
+        <tr>
+        <td>01</td>
+        <td><a href="hello.html">01 Prove: Hello World</a></td>
+        </tr>
+        <tr>
+        <td>02</td>
+        <td><a href="Index.html">02 Prove: Homepage</a></td>
+        </tr>
+        <tr>
+        <td>03</td>
+        <td><a href="error.html">03 Prove: Shopping Cart</a></td>
+        </tr>
+        <tr>
+        <td>04</td>
+        <td><a href="error.html">04 Prove: DB Setup</a></td>
+        </tr>
+        <tr>
+        <td>05</td>
+        <td><a href="error.html">05 Prove: DB Access</a></td>
+        </tr>
+        <tr>
+        <td>06</td>
+        <td><a href="error.html">06 Prove: DB Update</a></td>
+        </tr>
+        <tr>
+        <td>07</td>
+        <td><a href="error.html">07 Prove: Project 1</a></td>
+        </tr>
+        <tr>
+        <td>08</td>
+        <td><a href="error.html">08 Prove: Hello World</a></td>
+        </tr>
+        </tr>
+        <tr>
+        <td>??</td>
+        <td><button type = "button" onclick = "somePhp()">
+            Coming soon 
+        </button></td>
+        </tr>
+    </table>
+    <p id = "php"></p>
+    </body>
+    </html>

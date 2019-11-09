@@ -1,0 +1,24 @@
+<!DOCTYPE html> 
+<html> 
+    <head> 
+        <meta charset = "utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>CS 313 - Kimi Campbell</title> 
+        <link rel = "stylesheet"
+        type = "text/css"
+        href = "style.css" >
+
+
+    </head>
+    <body>
+    <div class="container">
+        <img src = "family.jpg" alt = "Me and my Family" class = "image">
+        <div class = "overlay">
+        <div class = "text">Hello! My name is Koby Campbell!</div>
+        </div>
+    </div>
+    <button type = "button" onclick = "location.href='assignments.html'">
+        Click Here For Assignments
+    </button>
+    </body>
+    </html>
