@@ -137,9 +137,10 @@ echo "<!DOCTYPE HTML>
   </div>
     ".$result."
 </div>
-
 <footer>
-    <button onclick=".insertDB($input, $outcome).">Submit Results</button>     
+<a href='view.php?input=paper'>
+        <img border='0' alt='paper' src='images/loss.png' style='width:250px;height:250px;'>
+</a>
 </footer>
 </body>";
 
