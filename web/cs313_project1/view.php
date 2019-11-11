@@ -31,7 +31,7 @@ function insertDB($input, $outcome){
         die();
     }
     //header("Location: rps_index.html");
-    die();
+    //die();
 
 }
 
