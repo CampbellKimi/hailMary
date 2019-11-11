@@ -139,7 +139,7 @@ echo "<!DOCTYPE HTML>
 </div>
 
 <footer>
-    <button onclick=".$this->insertDB($input, $outcome).">Submit Results</button>     
+    <button onclick=".insertDB($input, $outcome).">Submit Results</button>     
 </footer>
 </body>";
 
