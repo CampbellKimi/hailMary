@@ -138,8 +138,8 @@ echo "<!DOCTYPE HTML>
     ".$result."
 </div>
 <footer>
-<a href='view.php?input=paper'>
-        <img border='0' alt='paper' src='images/loss.png' style='width:250px;height:250px;'>
+<a href='rps_index.html'>
+        <img border='0' alt='paper' src='images/playagain.png' style='width:250px;height:250px;'>
 </a>
 </footer>
 </body>";
